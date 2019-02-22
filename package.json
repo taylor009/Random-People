@@ -10,13 +10,15 @@
     "react-dom": "^16.6.3",
     "react-native": "^0.58.5",
     "react-native-web": "^0.9.8",
-    "react-scripts": "^2.1.5"
+    "react-scripts": "^2.1.5",
+    "serve": "^10.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build",
     "start-native": "expo start",
     "android": "expo android",
     "ios": "expo ios",
